@@ -1,0 +1,444 @@
+{"_e":"root:init","_t":1789528288175,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528288175,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528288176,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528288253,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528288376,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528288457,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528289749,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"root:init","_t":1789528590579,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528590579,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528590580,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528591756,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528591875,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528591934,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528593178,"atlas":false,"workers":8,"host":"::","port":8082}
+{"_e":"root:init","_t":1789528631885,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528631885,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528631886,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528631962,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528632081,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528632157,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528633465,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"root:init","_t":1789528671285,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528671286,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528671286,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528671362,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528671482,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528671553,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528672859,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1789528686655,"id":"4","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789528686656,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528686657,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528686888,"id":"4","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1789528686989,"id":"4","progress":0.09,"total":20,"current":6}
+{"_e":"metro:bundling:progress","_t":1789528687093,"id":"4","progress":0.09,"total":132,"current":11}
+{"_e":"metro:bundling:progress","_t":1789528687193,"id":"4","progress":0.09,"total":142,"current":17}
+{"_e":"metro:bundling:progress","_t":1789528687294,"id":"4","progress":0.09,"total":154,"current":26}
+{"_e":"metro:bundling:progress","_t":1789528687395,"id":"4","progress":0.09,"total":192,"current":39}
+{"_e":"metro:bundling:progress","_t":1789528687496,"id":"4","progress":0.09,"total":212,"current":55}
+{"_e":"metro:bundling:progress","_t":1789528687598,"id":"4","progress":0.1373861451081528,"total":259,"current":96}
+{"_e":"metro:bundling:progress","_t":1789528687698,"id":"4","progress":0.25500822286729724,"total":301,"current":152}
+{"_e":"metro:bundling:progress","_t":1789528687798,"id":"4","progress":0.3723068083883942,"total":354,"current":216}
+{"_e":"metro:bundling:progress","_t":1789528687898,"id":"4","progress":0.4179772850189291,"total":430,"current":278}
+{"_e":"metro:bundling:progress","_t":1789528687941,"id":"4","progress":0.4179772850189291,"total":430,"current":278}
+{"_e":"metro:bundling:progress","_t":1789528687998,"id":"4","progress":0.47341706476623074,"total":452,"current":311}
+{"_e":"metro:bundling:progress","_t":1789528688098,"id":"4","progress":0.5727665484399791,"total":477,"current":361}
+{"_e":"metro:bundling:progress","_t":1789528688199,"id":"4","progress":0.6613423367499887,"total":514,"current":418}
+{"_e":"metro:bundling:progress","_t":1789528688300,"id":"4","progress":0.7515268360850889,"total":556,"current":482}
+{"_e":"metro:bundling:progress","_t":1789528688400,"id":"4","progress":0.7777070830845928,"total":618,"current":545}
+{"_e":"metro:bundling:progress","_t":1789528688501,"id":"4","progress":0.8231839136741161,"total":658,"current":597}
+{"_e":"metro:bundling:progress","_t":1789528688602,"id":"4","progress":0.8825450713352199,"total":677,"current":636}
+{"_e":"metro:bundling:progress","_t":1789528688703,"id":"4","progress":0.9799288259183284,"total":694,"current":687}
+{"_e":"metro:bundling:progress","_t":1789528688804,"id":"4","progress":0.994252885461415,"total":695,"current":693}
+{"_e":"metro:bundling:progress","_t":1789528689233,"id":"4","progress":0.9971243724444904,"total":695,"current":694}
+{"_e":"metro:bundling:progress","_t":1789528689337,"id":"4","progress":0.999,"total":698,"current":698}
+{"_e":"metro:bundling:failed","_t":1789528689363,"id":"4","message":"Cannot find module '/home/vann/Projects/multicab-fairs/frontend/node_modules/react-native/rn-get-polyfills'\nRequire stack:\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/ExpoMetroConfig.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/config/loadUserConfig.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/index.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/DevServerManager.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/startAsync.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/index.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/bin/cli\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/bin/cli","importStack":null,"filename":null,"targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1789528820292,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528820293,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528820294,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528820382,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528820506,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528820582,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528821887,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"root:init","_t":1789528846612,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528846612,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528846613,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528846689,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528846809,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528846888,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528848189,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1789528858665,"id":"1","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789528858665,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528858667,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528858767,"id":"1","progress":0.38505134967333293,"total":419,"current":260}
+{"_e":"metro:bundling:progress","_t":1789528858777,"id":"1","progress":0.38505134967333293,"total":419,"current":260}
+{"_e":"metro:bundling:progress","_t":1789528858867,"id":"1","progress":0.855554174513202,"total":653,"current":604}
+{"_e":"metro:bundling:failed","_t":1789528858933,"id":"1","message":"Cannot find module '/home/vann/Projects/multicab-fairs/frontend/node_modules/react-native/rn-get-polyfills'\nRequire stack:\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/ExpoMetroConfig.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/config/loadUserConfig.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/metro-config/build/index.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/server/DevServerManager.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/startAsync.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/src/start/index.js\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/node_modules/@expo/cli/build/bin/cli\n- /home/vann/Projects/multicab-fairs/frontend/node_modules/expo/bin/cli","importStack":null,"filename":null,"targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1789528930223,"format":"v0-jsonl","version":"57.0.25"}
+{"_e":"env:mode","_t":1789528930223,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1789528930224,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1789528930299,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1789528930419,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1789528930500,"plugins":[]}
+{"_e":"metro:instantiate","_t":1789528931756,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1789528938603,"id":"1","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789528938603,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528938605,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789528938707,"id":"1","progress":0.7922956164714405,"total":182,"current":162}
+{"_e":"metro:bundling:progress","_t":1789528938995,"id":"1","progress":0.8021072334259148,"total":182,"current":163}
+{"_e":"metro:bundling:progress","_t":1789528939095,"id":"1","progress":0.8021072334259148,"total":364,"current":247}
+{"_e":"metro:bundling:progress","_t":1789528939197,"id":"1","progress":0.8021072334259148,"total":452,"current":333}
+{"_e":"metro:bundling:progress","_t":1789528939297,"id":"1","progress":0.8021072334259148,"total":470,"current":372}
+{"_e":"metro:bundling:progress","_t":1789528939397,"id":"1","progress":0.8021072334259148,"total":519,"current":420}
+{"_e":"metro:bundling:progress","_t":1789528939497,"id":"1","progress":0.8021072334259148,"total":601,"current":515}
+{"_e":"metro:bundling:progress","_t":1789528939597,"id":"1","progress":0.8376903188738868,"total":649,"current":594}
+{"_e":"metro:bundling:progress","_t":1789528939699,"id":"1","progress":0.924991349480969,"total":680,"current":654}
+{"_e":"metro:bundling:progress","_t":1789528939798,"id":"1","progress":0.999,"total":708,"current":708}
+{"_e":"metro:bundling:done","_t":1789528939970,"id":"1","total":708,"ms":1367.451635}
+{"_e":"metro:bundling:started","_t":1789528950053,"id":"2","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789528950053,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789528950061,"id":"2","total":1,"ms":8.572976}
+{"_e":"metro:client_log","_t":1789529290353,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1789529308463,"id":"5","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529308463,"id":"5","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529308472,"id":"5","total":1,"ms":8.927376}
+{"_e":"metro:client_log","_t":1789529314188,"level":"warn","data":["SafeAreaView has been deprecated and will be removed in a future release. Please use 'react-native-safe-area-context' instead. See https://github.com/AppAndFlow/react-native-safe-area-context"]}
+{"_e":"metro:bundling:started","_t":1789529352634,"id":"7","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529352634,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529352643,"id":"7","total":1,"ms":8.638616}
+{"_e":"metro:bundling:started","_t":1789529436952,"id":"9","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529436952,"id":"9","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529436963,"id":"9","total":1,"ms":10.540718}
+{"_e":"metro:bundling:started","_t":1789529536893,"id":"a","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529536893,"id":"a","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529536903,"id":"a","total":1,"ms":9.982307}
+{"_e":"metro:bundling:started","_t":1789529635558,"id":"c","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529635558,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529635567,"id":"c","total":1,"ms":9.463387}
+{"_e":"metro:bundling:started","_t":1789529676882,"id":"d","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529676882,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529676892,"id":"d","total":1,"ms":9.616517}
+{"_e":"metro:bundling:started","_t":1789529922858,"id":"e","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789529922858,"id":"e","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789529922868,"id":"e","total":1,"ms":9.867887}
+{"_e":"metro:bundling:failed","_t":1789530381989,"id":null,"message":"Unable to resolve \"@expo/vector-icons\" from \"App.tsx\"\n  3 | import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';\n  4 | import { WebView } from 'react-native-webview';\n> 5 | import { Feather, MaterialIcons, Ionicons, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';\n    |                                                                                         ^\n  6 |\n  7 | const { height } = Dimensions.get('window');\n  8 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@expo/vector-icons\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n","filename":null,"targetModuleName":"@expo/vector-icons","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:failed","_t":1789530393415,"id":null,"message":"Unable to resolve \"@expo/vector-icons\" from \"App.tsx\"\n  3 | import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';\n  4 | import { WebView } from 'react-native-webview';\n> 5 | import { Feather, MaterialIcons, Ionicons, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';\n    |                                                                                         ^\n  6 |\n  7 | const { height } = Dimensions.get('window');\n  8 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@expo/vector-icons\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n","filename":null,"targetModuleName":"@expo/vector-icons","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:started","_t":1789530398721,"id":"g","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789530398721,"id":"g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789530398722,"id":"g","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1789530398728,"id":"g","message":"Unable to resolve \"@expo/vector-icons\" from \"App.tsx\"\n  3 | import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';\n  4 | import { WebView } from 'react-native-webview';\n> 5 | import { Feather, MaterialIcons, Ionicons, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';\n    |                                                                                         ^\n  6 |\n  7 | const { height } = Dimensions.get('window');\n  8 |","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"@expo/vector-icons\"\u001b[39m\n\n\u001b[90m \u001b[39m\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./App\"\u001b[39m\n","filename":null,"targetModuleName":"@expo/vector-icons","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:started","_t":1789530454124,"id":"h","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789530454124,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789530454125,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789530454225,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789530454325,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789530454428,"id":"h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789530454476,"id":"h","total":1,"ms":351.699196}
+{"_e":"metro:bundling:started","_t":1789530584003,"id":"n","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789530584003,"id":"n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789530584015,"id":"n","total":1,"ms":12.063978}
+{"_e":"metro:bundling:started","_t":1789530811242,"id":"o","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789530811242,"id":"o","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789530811253,"id":"o","total":1,"ms":11.457879}
+{"_e":"metro:bundling:started","_t":1789530968563,"id":"q","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789530968563,"id":"q","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789530968574,"id":"q","total":1,"ms":10.386238}
+{"_e":"metro:bundling:started","_t":1789531034012,"id":"r","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789531034012,"id":"r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789531034023,"id":"r","total":1,"ms":11.595569}
+{"_e":"metro:bundling:started","_t":1789531324017,"id":"t","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789531324018,"id":"t","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789531324018,"id":"t","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789531324032,"id":"t","total":1,"ms":14.28549}
+{"_e":"metro:bundling:started","_t":1789531662114,"id":"v","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789531662114,"id":"v","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789531662124,"id":"v","total":1,"ms":9.970047}
+{"_e":"metro:bundling:started","_t":1789531834998,"id":"w","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789531834998,"id":"w","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789531835008,"id":"w","total":1,"ms":10.782928}
+{"_e":"metro:bundling:started","_t":1789532032302,"id":"x","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532032302,"id":"x","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532032312,"id":"x","total":1,"ms":10.564338}
+{"_e":"metro:bundling:started","_t":1789532316143,"id":"10","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532316144,"id":"10","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532316155,"id":"10","total":1,"ms":11.255358}
+{"_e":"metro:bundling:started","_t":1789532464082,"id":"12","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532464082,"id":"12","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789532464083,"id":"12","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532464171,"id":"12","total":1,"ms":89.425835}
+{"_e":"metro:bundling:started","_t":1789532621033,"id":"14","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532621033,"id":"14","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532621043,"id":"14","total":1,"ms":9.838858}
+{"_e":"metro:bundling:started","_t":1789532655669,"id":"16","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532655669,"id":"16","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532655681,"id":"16","total":1,"ms":12.045329}
+{"_e":"metro:client_log","_t":1789532819830,"level":"error","data":["[Error: You attempted to set the key `actualDuration` with the value `93.44489500112832` on an object that is meant to be immutable and has been frozen.]"]}
+{"_e":"metro:client_log","_t":1789532819876,"level":"error","data":["[Error: You attempted to set the key `1` with the value `13129949.522125` on an object that is meant to be immutable and has been frozen.]"]}
+{"_e":"metro:client_log","_t":1789532820808,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532820899,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821030,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821030,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821303,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821325,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821325,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821325,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821326,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821341,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821349,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821361,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821371,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821411,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821511,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821512,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[TypeError: cyclical structure in JSON object]"]}
+{"_e":"metro:client_log","_t":1789532821513,"level":"error","data":["[Error: Non-JS exception: Hits microtasks retries bound.]"]}
+{"_e":"metro:bundling:started","_t":1789532852042,"id":"1d","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789532852042,"id":"1d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789532852052,"id":"1d","total":1,"ms":10.007987}
+{"_e":"metro:client_log","_t":1789532859585,"level":"error","data":["[Invariant Violation: Transform with key of \"translateY\" must be number or a percentage. Passed value: {\"translateY\":0}.]"]}
+{"_e":"metro:bundling:failed","_t":1789532885836,"id":"g","message":"SyntaxError: /home/vann/Projects/multicab-fairs/frontend/App.tsx: Expected corresponding JSX closing tag for <Animated.View>. (341:12)\n\n  339 |                 {isMoving ? 'Moving...' : (selecting === 'pickup' ? 'Set Pickup' : 'Set Drop-off')}\n  340 |               </Text>\n> 341 |             </View>\n      |             ^\n  342 |             <Animated.View style={[styles.centerPin, { backgroundColor: getPinColor(), transform: [{ translateY: pinBounce }] }]}>\n  343 |               <View style={styles.centerPinDot} />\n  344 |             </Animated.View>","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1789533163664,"id":"1h","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789533163664,"id":"1h","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789533163674,"id":"1h","total":1,"ms":9.614327}
