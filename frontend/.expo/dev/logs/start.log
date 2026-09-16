@@ -445,3 +445,25 @@
 {"_e":"metro:bundling:started","_t":1789533884403,"id":"1i","platform":"android","environment":null,"entry":"index.ts"}
 {"_e":"metro:bundling:progress","_t":1789533884403,"id":"1i","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1789533884413,"id":"1i","total":1,"ms":10.143567}
+{"_e":"metro:bundling:failed","_t":1789534154559,"id":"g","message":"SyntaxError: /home/vann/Projects/multicab-fairs/frontend/App.tsx: Unexpected token (101:6)\n\n   99 |     } catch (e) {\n  100 |       if (type === 'pickup') setPickupName(\"Location Selected\"); setIsOffline(true);\n> 101 |       else setDropoffName(\"Location Selected\"); setIsOffline(true);\n      |       ^\n  102 |     }\n  103 |   };\n  104 |","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1789534175368,"id":"g","message":"SyntaxError: /home/vann/Projects/multicab-fairs/frontend/App.tsx: Unexpected token (101:6)\n\n   99 |     } catch (e) {\n  100 |       if (type === 'pickup') setPickupName(\"Location Selected\"); setIsOffline(true);\n> 101 |       else setDropoffName(\"Location Selected\"); setIsOffline(true);\n      |       ^\n  102 |     }\n  103 |   };\n  104 |","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1789534190316,"id":"g","message":"SyntaxError: /home/vann/Projects/multicab-fairs/frontend/App.tsx: Unexpected token (101:6)\n\n   99 |     } catch (e) {\n  100 |       if (type === 'pickup') setPickupName(\"Location Selected\"); setIsOffline(true);\n> 101 |       else setDropoffName(\"Location Selected\"); setIsOffline(true);\n      |       ^\n  102 |     }\n  103 |   };\n  104 |","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1789534299953,"id":"1k","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789534299953,"id":"1k","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789534299964,"id":"1k","total":1,"ms":10.682808}
+{"_e":"metro:bundling:started","_t":1789534411727,"id":"1l","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789534411727,"id":"1l","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789534411738,"id":"1l","total":1,"ms":10.447937}
+{"_e":"metro:bundling:started","_t":1789534619603,"id":"1m","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789534619603,"id":"1m","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789534619614,"id":"1m","total":1,"ms":10.647598}
+{"_e":"metro:bundling:started","_t":1789534861664,"id":"1n","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789534861664,"id":"1n","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789534861674,"id":"1n","total":1,"ms":9.866567}
+{"_e":"metro:bundling:started","_t":1789535254893,"id":"1p","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789535254893,"id":"1p","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1789535254894,"id":"1p","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789535254930,"id":"1p","total":1,"ms":36.416156}
+{"_e":"metro:bundling:started","_t":1789535501293,"id":"1r","platform":"android","environment":null,"entry":"index.ts"}
+{"_e":"metro:bundling:progress","_t":1789535501293,"id":"1r","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1789535501304,"id":"1r","total":1,"ms":10.779858}

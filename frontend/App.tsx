@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Location from 'expo-location';
 
 import OnboardingScreen from './OnboardingScreen';
-import { Coordinate, SelectionState } from './src/types';
+import { Coordinate, SelectionState, SavedRoute } from './src/types';
 import TopHeader from './src/components/Header/TopHeader';
 import BottomTabBar from './src/components/Navigation/BottomTabBar';
 import PinSelectionSheet from './src/components/BottomSheet/PinSelectionSheet';
@@ -61,10 +61,16 @@ function MainScreen() {
   const [fareRegular, setFareRegular] = useState("0.00");
   const [fareDiscount, setFareDiscount] = useState("0.00");
   const [isRiding, setIsRiding] = useState(false);
+  const [isOffline, setIsOffline] = useState(false);
+  const [savedRoutes, setSavedRoutes] = useState<SavedRoute[]>([]);
   
   const pinBounce = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
+    AsyncStorage.getItem('savedRoutes').then(val => {
+      if (val) setSavedRoutes(JSON.parse(val));
+    });
+    
     let sub: Location.LocationSubscription;
     (async () => {
       let { status } = await Location.requestForegroundPermissionsAsync();
@@ -91,18 +97,20 @@ function MainScreen() {
       if (type === 'pickup') setPickupName(name);
       else setDropoffName(name);
     } catch (e) {
-      if (type === 'pickup') setPickupName("Location Selected");
-      else setDropoffName("Location Selected");
+      setIsOffline(true);
+      if (type === 'pickup') { setPickupName("Location Selected"); }
+      else { setDropoffName("Location Selected"); }
     }
   };
 
   const calculateFareAPI = async (distKm: number) => {
     try {
-      const res = await fetch(`http://127.0.0.1:8000/api/fare/calculate?distance_km=${distKm}`);
+      const res = await fetch(`http://192.168.1.9:8000/api/fare/calculate?distance_km=${distKm}`);
       const data = await res.json();
       setFareRegular(parseFloat(data.regular_fare).toFixed(2));
       setFareDiscount(parseFloat(data.discounted_fare).toFixed(2));
     } catch (e) {
+      setIsOffline(true);
       let reg = 12.00 + Math.max(0, Math.ceil(distKm - 2)) * 2.00;
       let disc = reg * 0.8;
       setFareRegular(reg.toFixed(2));
@@ -174,6 +182,35 @@ function MainScreen() {
     }
   };
 
+  const saveCurrentRoute = async () => {
+    if (!pickup || !dropoff) return;
+    const newRoute: SavedRoute = {
+      id: Date.now().toString(),
+      name: `${pickupName.split(' ')[0]} to ${dropoffName.split(' ')[0]}`,
+      pickup,
+      dropoff,
+      pickupName,
+      dropoffName
+    };
+    const updated = [...savedRoutes, newRoute];
+    setSavedRoutes(updated);
+    await AsyncStorage.setItem('savedRoutes', JSON.stringify(updated));
+    Alert.alert("Route Saved", "This route has been saved to your favorites!");
+  };
+
+  const loadSavedRoute = (route: SavedRoute) => {
+    setPickup(route.pickup);
+    setDropoff(route.dropoff);
+    setPickupName(route.pickupName);
+    setDropoffName(route.dropoffName);
+    setSelecting('done');
+    
+    webViewRef.current?.postMessage(JSON.stringify({ type: 'setPickup', lat: route.pickup.latitude, lng: route.pickup.longitude }));
+    setTimeout(() => {
+      webViewRef.current?.postMessage(JSON.stringify({ type: 'setDropoff', lat: route.dropoff.latitude, lng: route.dropoff.longitude }));
+    }, 100);
+  };
+
   const startRide = () => {
     setIsRiding(true);
     webViewRef.current?.postMessage(JSON.stringify({ type: 'startRiding' }));
@@ -200,7 +237,7 @@ function MainScreen() {
 
       <View style={styles.bottomAreaContainer}>
         {isRiding ? (
-          <LiveTrackingSheet resetFlow={resetFlow} />
+          <LiveTrackingSheet resetFlow={resetFlow} fareRegular={fareRegular} />
         ) : selecting !== 'done' ? (
           <PinSelectionSheet 
             selecting={selecting}
@@ -210,6 +247,9 @@ function MainScreen() {
             getPinColor={getPinColor}
             handleConfirm={handleConfirm}
             resetFlow={resetFlow}
+            savedRoutes={savedRoutes}
+            onSelectSavedRoute={loadSavedRoute}
+            isOffline={isOffline}
           />
         ) : (
           <BookingSheet 
@@ -220,6 +260,8 @@ function MainScreen() {
             fareDiscount={fareDiscount}
             startRide={startRide}
             resetFlow={resetFlow}
+            onSaveRoute={saveCurrentRoute}
+            isOffline={isOffline}
           />
         )}
 

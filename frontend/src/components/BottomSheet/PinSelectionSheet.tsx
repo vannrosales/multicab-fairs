@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { SelectionState } from '../../types';
+import { SelectionState, SavedRoute } from '../../types';
+import { Feather } from '@expo/vector-icons';
 
 interface PinSelectionSheetProps {
   selecting: SelectionState;
@@ -11,6 +12,9 @@ interface PinSelectionSheetProps {
   getPinColor: () => string;
   handleConfirm: () => void;
   resetFlow: () => void;
+  savedRoutes: SavedRoute[];
+  onSelectSavedRoute: (route: SavedRoute) => void;
+  isOffline: boolean;
 }
 
 export default function PinSelectionSheet({
@@ -20,7 +24,9 @@ export default function PinSelectionSheet({
   dropoffName,
   getPinColor,
   handleConfirm,
-  resetFlow
+  resetFlow,
+  savedRoutes,
+  onSelectSavedRoute,
 }: PinSelectionSheetProps) {
   return (
     <SafeAreaView edges={['bottom']} style={styles.selectingCard}>
@@ -61,6 +67,31 @@ export default function PinSelectionSheet({
           <Text style={styles.cancelText}>Cancel</Text>
         </TouchableOpacity>
       )}
+      
+      {selecting === 'pickup' && (
+        <View style={{marginTop: 24}}>
+          <View style={{flexDirection: 'row', alignItems: 'center', marginBottom: 12}}><Feather name="star" size={16} color="#d97706" /><Text style={{fontSize: 14, fontWeight: '700', color: '#4b5563', marginLeft: 6}}>Saved Daily Routes</Text></View>
+          {savedRoutes.length === 0 ? (
+            <View style={{backgroundColor: '#f9fafb', padding: 16, borderRadius: 12, alignItems: 'center', borderWidth: 1, borderColor: '#f3f4f6'}}>
+              <Text style={{color: '#9ca3af', fontSize: 13}}>You haven't saved any routes yet.</Text>
+              <Text style={{color: '#9ca3af', fontSize: 13, marginTop: 4}}>Complete a booking to save one!</Text>
+            </View>
+          ) : (
+            savedRoutes.map((route, idx) => (
+              <TouchableOpacity key={idx} style={styles.savedRouteCard} onPress={() => onSelectSavedRoute(route)}>
+                <View style={styles.savedRouteIcon}>
+                  <Feather name="bookmark" size={16} color="#059669" />
+                </View>
+                <View style={{flex: 1}}>
+                  <Text style={{fontSize: 15, fontWeight: '700', color: '#111827'}}>{route.name}</Text>
+                  <Text style={{fontSize: 12, color: '#6b7280', marginTop: 2}} numberOfLines={1}>{route.pickupName} → {route.dropoffName}</Text>
+                </View>
+                <Feather name="chevron-right" size={16} color="#9ca3af" />
+              </TouchableOpacity>
+            ))
+          )}
+        </View>
+      )}
     </SafeAreaView>
   );
 }
@@ -79,6 +110,8 @@ const styles = StyleSheet.create({
   confirmBtn: { paddingVertical: 18, borderRadius: 14, alignItems: 'center', shadowColor: '#000', shadowOffset: { width: 0, height: 4 }, shadowOpacity: 0.2, shadowRadius: 8, elevation: 8 },
   confirmBtnText: { color: '#fff', fontSize: 18, fontWeight: 'bold' },
   cancelBtn: { marginTop: 20, alignItems: 'center' },
-  cancelText: { color: '#6b7280', fontWeight: 'bold', fontSize: 16 }
+  cancelText: { color: '#6b7280', fontWeight: 'bold', fontSize: 16 },
+  savedRouteCard: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#fff', padding: 12, borderRadius: 12, borderWidth: 1, borderColor: '#f3f4f6', marginBottom: 8 },
+  savedRouteIcon: { backgroundColor: '#ecfdf5', padding: 10, borderRadius: 20, marginRight: 12 }
 });
 

@@ -10,6 +10,8 @@ interface BookingSheetProps {
   fareDiscount: string;
   startRide: () => void;
   resetFlow: () => void;
+  onSaveRoute: () => void;
+  isOffline: boolean;
 }
 
 export default function BookingSheet({
@@ -19,11 +21,13 @@ export default function BookingSheet({
   fareRegular,
   fareDiscount,
   startRide,
-  resetFlow
+  resetFlow,
+  onSaveRoute,
 }: BookingSheetProps) {
   return (
     <View style={styles.doneSheetWrapper}>
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.sheetScroll}>
+        
         
         <View style={styles.locationCard}>
           <View style={styles.locLeft}>
@@ -52,9 +56,9 @@ export default function BookingSheet({
               <Text style={styles.bannerSub}>Zero surge guarantee</Text>
             </View>
           </View>
-          <TouchableOpacity style={styles.routeOptsBtn}>
-            <Feather name="sliders" size={12} color="#d97706" />
-            <Text style={styles.routeOptsText}>Route Opts</Text>
+          <TouchableOpacity style={styles.routeOptsBtn} onPress={onSaveRoute}>
+            <Feather name="star" size={12} color="#d97706" />
+            <Text style={styles.routeOptsText}>Save Daily Route</Text>
           </TouchableOpacity>
         </View>
 

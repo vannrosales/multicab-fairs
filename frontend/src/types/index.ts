@@ -5,3 +5,12 @@ export type Coordinate = {
 
 export type SelectionState = 'pickup' | 'dropoff' | 'done';
 
+
+export type SavedRoute = {
+  id: string;
+  name: string;
+  pickup: Coordinate;
+  dropoff: Coordinate;
+  pickupName: string;
+  dropoffName: string;
+};
